@@ -1,48 +1,62 @@
-![banner](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/images/live_templates.png)
+![banner](./images/live_template_image_feature.png) 
+-------------------------------------------------------
 
 ## AndroidLiveTemplates
 
  :rocket: A curated android templates to make android development more easy and fast:battery:!
  
- |      |      |
 #### :bulb: Goal 
 
 The main idea behind this repo is to share basic android development template which helps developers to write less code.
 
-#### How to use:
+### How to use:
 
-          Step 1: First download latest AndroidLiveTemplates from [here](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
-          
-          Step 2: Open AndroidStudio and Choose menu **File** > and select **Import Settings...** from the menu.
-          
-          Step 3: Specify live template configuration path by selection **Live_templates_android.zip** file.
-          
-          Step 4: Now select the **Live templates** checkbox and click OK.
-          
-          | https://imgur.com/a/b89EM2t |
-          
-          Step 5: After restarting AndroidStudio you will get the all templates at **Live Templates** by navigating
-                  File > Settings > Editor > Live Templates  
-### Screenshots
-| Center in parent | Android menu setup|
-| ------------------ | ------------------ |
-| <img src="./images/example_center_parent.gif" height="500" alt="Screenshots"/>  | <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>  |
+**Step 1:** First download latest AndroidLiveTemplates from [here](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
 
-## Usage
+**Step 2:** Open AndroidStudio and Choose menu **File** > and select **Import Settings...** from the menu.
+
+**Step 3:** Specify live template configuration path by selection **Live_templates_android.zip** file.
+
+**Step 4:** Now select the **Live templates** checkbox and click OK.
+
+ |  <img src="https://imgur.com/a/b89EM2tf" alt="Screenshots"/> |
+ ----------------------------------------------------------------
+          
+**Step 5:** After restarting AndroidStudio you will get the all templates at **Live Templates** by navigating
+                  **File** > **Settings** > **Editor** > **Live Templates**
+                  
+                  
+### Example Screenshots
+| Center in parent                                                                | 
+| ------------------------------------------------------------------------------- | 
+| <img src="./images/example_center_parent.gif" height="500" alt="Screenshots"/>  |
+-----------------------------------------------------------------------------------
+| Android menu setup                                                              |
+| ------------------------------------------------------------------------------- |
+| <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>           |
+-----------------------------------------------------------------------------------
+
+### Usage
   
-  For more,See [Wiki](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki) on how to add use live templates.  
+  For more,See [Wiki](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki) on how to add use live templates. (InProgress...) 
     
-#### Adding more templates!
+### Adding more templates!
 
 we are Welcoming PR. Check out contribution guidelines [CONTRIBUTING.md](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/CONTRIBUTING.md) 
 
-#### Get in touch!
+### Videos guide
+
+* **Live template setup** : https://youtu.be/QDA4tWGsIIs
+* **Live template usages** : https://youtu.be/35D7FyjGRxM
+
+
+### Get in touch!
 
 * [@Twitter](https://twitter.com/pranatpatel_)
 
 * https://about.me/pranaypatel
 
-#### License
+### License
 
 ```
    Copyright © 2019 Pranay Patel
