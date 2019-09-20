@@ -1,11 +1,13 @@
+![banner](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/images/live_templates.png)
+
 ## AndroidLiveTemplates
 
  :rocket: A curated android templates to make android development more easy and fast:battery:!
  
+ |      |      |
 #### :bulb: Goal 
 
-The main idea behind this repo is to share basic android development template which help developers to write less code.
-
+The main idea behind this repo is to share basic android development template which helps developers to write less code.
 
 #### How to use:
 
@@ -17,11 +19,18 @@ The main idea behind this repo is to share basic android development template wh
           
           Step 4: Now select the **Live templates** checkbox and click OK.
           
-          https://imgur.com/a/b89EM2t
+          | https://imgur.com/a/b89EM2t |
           
           Step 5: After restarting AndroidStudio you will get the all templates at **Live Templates** by navigating
                   File > Settings > Editor > Live Templates  
-    
+### Screenshots
+| Center in parent | Android menu setup|
+| ------------------ | ------------------ |
+| <img src="./images/example_center_parent.gif" height="500" alt="Screenshots"/>  | <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>  |
+
+## Usage
+  
+  For more,See [Wiki](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki) on how to add use live templates.  
     
 #### Adding more templates!
 
@@ -32,3 +41,21 @@ we are Welcoming PR. Check out contribution guidelines [CONTRIBUTING.md](https:/
 * [@Twitter](https://twitter.com/pranatpatel_)
 
 * https://about.me/pranaypatel
+
+#### License
+
+```
+   Copyright © 2019 Pranay Patel
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+```
