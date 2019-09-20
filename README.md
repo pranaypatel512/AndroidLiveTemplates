@@ -23,7 +23,7 @@ The main idea behind this repo is to share basic android development template wh
                   **File** > **Settings** > **Editor** > **Live Templates**
                   
                   
-#### Example Screenshots
+### Example Screenshots
 | Center in parent                                                                | 
 | ------------------------------------------------------------------------------- | 
 | <img src="./images/example_center_parent.gif" height="500" alt="Screenshots"/>  |
