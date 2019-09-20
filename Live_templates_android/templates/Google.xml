@@ -1,0 +1,13 @@
+<templateSet group="Google">
+  <template name="gms_version" value="&lt;meta-data&#10;            android:name=&quot;com.google.android.gms.version&quot;&#10;            android:value=&quot;@integer/google_play_services_version&quot; /&gt;" description="set gms version of google play service" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="geo_key" value="&lt;meta-data&#10;       android:name=&quot;com.google.android.geo.API_KEY&quot;&#10;       android:value=&quot;$content$&quot; /&gt;" description="set google map key" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

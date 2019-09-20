@@ -1,0 +1,8 @@
+<templateSet group="AndroidXmlMenu">
+  <template name="menu_navigation" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;menu xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;&#10;    &lt;item&#10;        android:id=&quot;@+id/navigation_item_one&quot;&#10;        android:icon=&quot;@drawable/$content$&quot;&#10;        android:title=&quot;@string/$content$&quot; /&gt;&#10;    &lt;item&#10;        android:id=&quot;@+id/navigation_item_two&quot;&#10;        android:icon=&quot;@drawable/$content$&quot;&#10;        android:title=&quot;@string/$content$&quot; /&gt;&#10;    &lt;item&#10;        android:id=&quot;@+id/navigation_item_three&quot;&#10;        android:icon=&quot;@drawable/$content$&quot;&#10;        android:title=&quot;@string/$content$&quot; /&gt;&#10;    &lt;item&#10;        android:id=&quot;@+id/navigation_item_four&quot;&#10;        android:icon=&quot;@drawable/$content$&quot;&#10;        android:title=&quot;@string/$content$&quot; /&gt;&#10;    &lt;item&#10;        android:id=&quot;@+id/navigation_item_five&quot;&#10;        android:icon=&quot;@drawable/$content$&quot;&#10;        android:title=&quot;@string/$content$&quot; /&gt;&#10;&lt;/menu&gt;" description="add navigation menu with basic details with five items" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

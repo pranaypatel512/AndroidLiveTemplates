@@ -1,0 +1,18 @@
+<templateSet group="AndroidManifest">
+  <template name="permission_location" value="&lt;uses-permission android:name=&quot;android.permission.ACCESS_COARSE_LOCATION&quot;/&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.ACCESS_FINE_LOCATION&quot;/&gt;" description="location permissions" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="fileprovider" value="&lt;provider&#10;            android:name=&quot;androidx.core.content.FileProvider&quot;&#10;            android:authorities=&quot;${applicationId}.provider&quot;&#10;            android:exported=&quot;false&quot;&#10;            android:grantUriPermissions=&quot;true&quot;&gt;&#10;            &lt;meta-data&#10;                android:name=&quot;android.support.FILE_PROVIDER_PATHS&quot;&#10;                android:resource=&quot;@xml/$content$&quot; /&gt;&#10;        &lt;/provider&gt;" description="fire provider xml code setup" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="permission_storage" value="&lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot;/&gt;&#10;&lt;uses-permission android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot;/&gt;" description="read write storage permission" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

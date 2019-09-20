@@ -1,0 +1,28 @@
+<templateSet group="AndroidGradle">
+  <template name="buildTypes" value=" buildTypes {&#10;        release {&#10;            minifyEnabled false&#10;            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'&#10;            signingConfig signingConfigs.release&#10;        }&#10;        debug {&#10;            minifyEnabled false&#10;            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'&#10;            signingConfig signingConfigs.debug&#10;        }&#10;    }" description="default buildTypes setup in gradle with release and debug" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="productFlavors" value="productFlavors {&#10;        development {&#10;            versionCode 1&#10;            versionName &quot;1.0-development&quot;&#10;            dimension &quot;default&quot;&#10;        }&#10;        qa {&#10;            versionCode 1&#10;            versionName &quot;1.0-QA&quot;&#10;            dimension &quot;default&quot;&#10;        }&#10;        client {&#10;            versionCode 1&#10;            versionName &quot;1.0-client&quot;&#10;            dimension &quot;default&quot;&#10;        }&#10;        production {&#10;            versionCode 1&#10;            versionName &quot;1.0-prod&quot;&#10;            dimension &quot;default&quot;&#10;        }&#10;    }" description="default product flavous setup in gradle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="signingConfigs" value="signingConfigs {&#10;        debug {&#10;            keyAlias 'androiddebugkey'&#10;            keyPassword 'android'&#10;            storePassword 'android'&#10;            storeFile file(&quot;$project.rootDir/settings/keystore/debug.keystore&quot;)&#10;        }&#10;        release {&#10;            keyAlias '[release_keyAlias]'&#10;            keyPassword '[release_keypassword]'&#10;            storePassword '[release_keystorePassword]'&#10;            storeFile file(&quot;$project.rootDir/settings/keystore/debug.keystore&quot;)&#10;        }&#10;    }" description="default signingConfigs setup in gradle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="dbe" value="dataBinding {&#10;        enabled true&#10;    }" description="enable data binding in gradle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="compileOptions" value="compileOptions {&#10;        targetCompatibility JavaVersion.VERSION_$content$&#10;        sourceCompatibility JavaVersion.VERSION_$content$&#10;    }" description="set target java version in gradle" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>

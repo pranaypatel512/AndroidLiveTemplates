@@ -1,0 +1,147 @@
+<templateSet group="AndroidXmlLayoutTemplates">
+  <template name="center_parent" value="app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;app:layout_constraintTop_toTopOf=&quot;parent&quot; &#10;app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;" description="set you view on center of the parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="center_vertical" value="app:layout_constraintTop_toTopOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintBottom_toBottomOf=&quot;@+id/VIEW_ID&quot;" description="Constraint vertical on view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="center_horizontal" value="app:layout_constraintStart_toStartOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;@+id/VIEW_ID&quot;" description="Constraint horizontal on view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="top_on_view" value="app:layout_constraintStart_toStartOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintBottom_toTopOf=&quot;@+id/VIEW_ID&quot;" description="set your view on top of the view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bottom_on_view" value="app:layout_constraintStart_toStartOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintTop_toBottomOf=&quot;@+id/VIEW_ID&quot;" description="set your view on bottom of the view horizontally" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="end_on_view" value="app:layout_constraintStart_toEndOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintTop_toTopOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintBottom_toBottomOf=&quot;@+id/VIEW_ID&quot;" description="set your view on end of the view vertically" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="center_view" value="app:layout_constraintStart_toStartOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintTop_toTopOf=&quot;@+id/VIEW_ID&quot; &#10;app:layout_constraintBottom_toBottomOf=&quot;@+id/VIEW_ID&quot;&#10;" description="set your view on center of the other view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="start_on_view" value="app:layout_constraintEnd_toStartOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintTop_toTopOf=&quot;@+id/VIEW_ID&quot;&#10;app:layout_constraintBottom_toBottomOf=&quot;@+id/VIEW_ID&quot;" description="set your view on start of the view vertically" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="center_horizontal_parent" value="app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;parent&quot;" description="Constraint horizontal on parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="center_vertical_parent" value="app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;app:layout_constraintBottom_toBottomOf=&quot;parent&quot;" description="Constraint vertical on parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ttp" value="app:layout_constraintTop_toTopOf=&quot;parent&quot;" description="top to top of the parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ttv" value="app:layout_constraintTop_toTopOf=&quot;@+id/VIEW_ID&quot;" description="top to top of the view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bbv" value="app:layout_constraintBottom_toBottomOf=&quot;@+id/$content$&quot;" description="bottom to bottom of the view" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bbp" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;" description="bottom to bottom of the parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="eev" value="app:layout_constraintEnd_toEndOf=&quot;@+id/VIEW_ID&quot;" description="end to end of the view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="eep" value="app:layout_constraintEnd_toEndOf=&quot;parent&quot;" description="end to end of the parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ssp" value="app:layout_constraintStart_toStartOf=&quot;parent&quot;" description="start to start of the parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="circle" value="app:layout_constraintCircle=&quot;@id/VIEW_ID&quot;&#10;app:layout_constraintCircleAngle=&quot;0&quot;&#10;app:layout_constraintCircleRadius=&quot;0dp&quot;" description="set view on circlular dependency" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="hwm" value="android:layout_height=&quot;match_parent&quot;&#10;android:layout_width=&quot;match_parent&quot;" description="set view height width match_parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="hww" value="android:layout_height=&quot;wrap_content&quot;&#10;android:layout_width=&quot;wrap_content&quot;" description="set view height width wrap_content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bg" value="android:background=&quot;@drawable/&quot;" description="set view background" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bgc" value="android:background=&quot;@color/&quot;" description="set view background color" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="toggle" value="&lt;ToggleButton&#10;            android:id=&quot;@+id/[VIEW_Id]&quot;&#10;            android:layout_width=&quot;wrap_content&quot;&#10;            android:layout_height=&quot;wrap_content&quot;           &#10;            android:background=&quot;&quot;&#10;            android:button=&quot;@null&quot;&#10;            android:checked=&quot;false&quot;&#10;            android:textOff=&quot;&quot;&#10;            android:textOn=&quot;&quot;/&gt;" description="create toggle button with default properties" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="imageview" value="&lt;ImageView&#10;            android:id=&quot;@+id/[VIEW_ID]&quot;&#10;            android:layout_width=&quot;wrap_content&quot;&#10;            android:layout_height=&quot;wrap_content&quot;&#10;            android:background=&quot;@drawable/&quot;&#10;            android:src=&quot;@drawable/&quot; /&gt;" description="create imageview with default properties" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="recyclerview_liner" value="&lt;androidx.recyclerview.widget.RecyclerView&#10;            android:id=&quot;@+id/$content$&quot;&#10;            android:layout_width=&quot;match_parent&quot;&#10;            android:layout_height=&quot;wrap_content&quot;&#10;            app:layoutManager=&quot;androidx.recyclerview.widget.LinearLayoutManager&quot; /&gt;" description="Recyclerview with LinearLayoutManager" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="recyclerview_grid" value="&lt;androidx.recyclerview.widget.RecyclerView&#10;            android:id=&quot;@+id/$content$&quot;&#10;            android:layout_width=&quot;match_parent&quot;&#10;            android:layout_height=&quot;match_parent&quot;&#10;            app:layoutManager=&quot;androidx.recyclerview.widget.GridLayoutManager&quot; /&gt;" description="Recyclerview with GridLayoutManager" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="recyclerview_" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="layout" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;    xmlns:tools=&quot;http://schemas.android.com/tools&quot;&gt;&#10;&#10;    &lt;data&gt;&#10;&#10;        &lt;variable&#10;            name=&quot;viewModel&quot;&#10;            type=&quot;$content$&quot; /&gt;&#10;    &lt;/data&gt;&#10;&#10; &lt;/layout&gt;" description="create layout xml tag with default data binding values" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="layout_with_parent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;&#10;    &lt;data&gt;&#10;&#10;        &lt;variable&#10;            name=&quot;viewModel&quot;&#10;            type=&quot;$content$&quot; /&gt;&#10;    &lt;/data&gt;&#10;&#10;    &lt;androidx.constraintlayout.widget.ConstraintLayout&#10;        android:layout_width=&quot;match_parent&quot;&#10;        android:layout_height=&quot;match_parent&quot;&gt;&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;&#10;&lt;/layout&gt;" description="create layout xml tag with default data binding values with parent layout" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
