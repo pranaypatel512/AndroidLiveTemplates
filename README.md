@@ -11,7 +11,7 @@ The main idea behind this repo is to share basic android development template wh
 
 ### :hammer: How to use:
 
-**Step 1:** First download latest AndroidLiveTemplates from [here](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
+**Step 1:** First download latest AndroidLiveTemplates from [Live_templates_android.zip](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
 
 **Step 2:** Open AndroidStudio and Choose menu **File** > and select **Import Settings...** from the menu.
 
