@@ -1,7 +1,7 @@
 ![banner](./images/live_template_image_feature.png) 
 -------------------------------------------------------
 
-## AndroidLiveTemplates
+# AndroidLiveTemplates
 
  :rocket: A curated android templates to make android development more easy and fast:battery:!
  
