@@ -33,34 +33,34 @@ The main idea behind this repo is to share basic android development template wh
 | <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>           |
 -----------------------------------------------------------------------------------
 
-#### :book: Usage
+### :book: Usage
   
   For more, See [Wiki](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki) on how to add use live templates. (InProgress...) 
     
-#### :heavy_plus_sign: Adding more templates!
+### :heavy_plus_sign: Adding more templates!
 
 we are Welcoming PR. Check out contribution guidelines [CONTRIBUTING.md](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/CONTRIBUTING.md) 
 
-#### :movie_camera: Videos guide
+### :movie_camera: Videos guide
 
 * **Live template setup** : https://youtu.be/QDA4tWGsIIs
 * **Live template usages** : https://youtu.be/35D7FyjGRxM
 
-#### Built With
+### Built With
 
 * [Android Studio](https://developer.android.com/studio/index.html) - The Official IDE for Android
 
-#### :envelope: Get in touch!
+### :envelope: Get in touch!
 
 * [@Twitter](https://twitter.com/pranatpatel_)
 
 * https://about.me/pranaypatel
 
-#### Find this project useful ? ❤️
+### Find this project useful ? ❤️
 
 Support it by clicking the ⭐️ button on the upper right of this page. ✌️
 
-#### License
+### License
 
 ```
    Copyright © 2019 Pranay Patel
