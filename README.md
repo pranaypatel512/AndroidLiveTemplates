@@ -21,9 +21,32 @@ The main idea behind this repo is to share basic android development template wh
           
 **Step 5:** After restarting AndroidStudio you will get the all templates at **Live Templates** by navigating
                   **File** > **Settings** > **Editor** > **Live Templates**
+
+### :book: Example:
+
+We have added templates in individual templates group like AndroidManifest, AndroidXmlLayoutTemplates, AndroidGradle, AndroidXmlMenu etc.
+
+**1. AndroidXmlLayoutTemplates**
+
+| Template Name   	| Purpose       	| Properties |
+|-----------------	|---------------	|------------|
+| center_parent    | Set view in the center of parent in the ConstraintLayout |app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+| center_vertical  | Set vertical constraint on view | app:layout_constraintTop_toTopOf="@+id/VIEW_ID" app:layout_constraintBottom_toBottomOf="@+id/VIEW_ID"
+| center_vertical_parent  | Set vertical constraint on view with parent | app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+| center_horizontal  |  Set horizontal constraint on view | app:layout_constraintStart_toStartOf="@+id/VIEW_ID" app:layout_constraintEnd_toEndOf="@+id/VIEW_ID"
+| center_horizontal_parent  | Set horizontal constraint on view with parent | app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+
+For more templates checkour [WIKI](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki)
+
+**2. AndroidManifest**
+
+| Template Name   	| Purpose       	| Properties |
+|-----------------	|---------------	|------------|
+| permission_storage | Add read/write permissioin for external storage  | < uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>                < uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
                   
-                  
-### Example Screenshots
+### Screenshots
 | Center in parent                                                                | 
 | ------------------------------------------------------------------------------- | 
 | <img src="./images/example_center_parent.gif" height="500" alt="Screenshots"/>  |
@@ -33,13 +56,20 @@ The main idea behind this repo is to share basic android development template wh
 | <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>           |
 -----------------------------------------------------------------------------------
 
-### :book: Usage
-  
-  For more, See [Wiki](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki) on how to add use live templates. (InProgress...) 
-    
 ### :heavy_plus_sign: Adding more templates!
 
-we are Welcoming PR. Check out contribution guidelines [CONTRIBUTING.md](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/CONTRIBUTING.md) 
+**we are Welcoming PR!**
+
+**Step 1:** Add new tempalte(s) in your android studio aftert importing latest [Live_templates_android.zip](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
+
+**Step 2:** Export the setting with only "Live Templates" section.
+         **File** -> **Exports Settings** -> Click on **Select None** to deselect other settings. -> Select **Live Templates(schemes)**
+
+![Exports Settings](https://monosnap.com/image/VeL1FhTPcmuWOURkzNx5w3iUGcwC4u)
+         
+**Step 3:** Upload latest settings file with new brach and Send PR.
+
+ Check out contribution guidelines [CONTRIBUTING.md](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/CONTRIBUTING.md) 
 
 ### :movie_camera: Videos guide
 
