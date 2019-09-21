@@ -81,14 +81,14 @@ For more templates checkout [AndroidGradle](https://github.com/pranaypatel512/An
 
 **we are Welcoming PR!**
 
-**Step 1:** Add new tempalte(s) in your android studio aftert importing latest [Live_templates_android.zip](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
+**Step 1:** Add new template(s) in your android studio aftert importing latest [Live_templates_android.zip](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
 
 **Step 2:** Export the setting with only "Live Templates" section.
          **File** -> **Exports Settings** -> Click on **Select None** to deselect other settings. -> Select **Live Templates(schemes)**
 
 ![Exports Settings](https://monosnap.com/image/VeL1FhTPcmuWOURkzNx5w3iUGcwC4u)
          
-**Step 3:** Upload latest settings file with new brach and Send PR.
+**Step 3:** Upload latest settings file with new branch and Send PR.
 
  Check out contribution guidelines [CONTRIBUTING.md](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/CONTRIBUTING.md) 
 
