@@ -36,7 +36,7 @@ We have added templates in individual templates group like AndroidManifest, Andr
 | center_horizontal  |  Set horizontal constraint on view | app:layout_constraintStart_toStartOf="@+id/VIEW_ID" app:layout_constraintEnd_toEndOf="@+id/VIEW_ID"
 | center_horizontal_parent  | Set horizontal constraint on view with parent | app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
 
-For more templates checkour [WIKI](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki)
+For more templates checkout [WIKI](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#1-androidxmllayouttemplates)
 
 **2. AndroidManifest**
 
@@ -44,6 +44,7 @@ For more templates checkour [WIKI](https://github.com/pranaypatel512/AndroidLive
 |-----------------	|---------------	|------------|
 | permission_storage | Add read/write permissioin for external storage  | < uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>                < uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
+For more templates checkout [WIKI](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#2-androidmanifest)
 
                   
 ### Screenshots
