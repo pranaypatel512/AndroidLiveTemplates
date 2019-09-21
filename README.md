@@ -72,6 +72,10 @@ For more templates checkout [AndroidGradle](https://github.com/pranaypatel512/An
 | ------------------------------------------------------------------------------- |
 | <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>           |
 -----------------------------------------------------------------------------------
+| Gradle build config setup                                                              |
+| ------------------------------------------------------------------------------- |
+| <img src="./images/build_type.gif" height="500" alt="Screenshots"/>             |
+-----------------------------------------------------------------------------------
 
 ### :heavy_plus_sign: Adding more templates!
 
