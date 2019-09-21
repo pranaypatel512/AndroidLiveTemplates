@@ -46,10 +46,22 @@ For more templates checkout [AndroidXmlLayoutTemplates](https://github.com/prana
 | Template Name   	| Purpose       	| Properties |
 |-----------------	|---------------	|------------|
 | permission_storage | Add read/write permissioin for external storage  | < uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>                < uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+| permission_location | Add location permissioins in manifest  | < uses-permissions android:name="android.permission.ACCESS_COARSE_LOCATION"/> < uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
 For more templates checkout [AndroidManifest](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#2-androidmanifest) in wiki.
 
+
+**3. AndroidGradle**
+
+| Template Name   	| Purpose       	| Properties |
+|-----------------	|---------------	|------------|
+| buildTypes | Default buildTypes setup in gradle with release and debug  | buildTypes { release { minifyEnabled false ...} debug { minifyEnabled false ...} }
+
+For more templates checkout [AndroidGradle](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#3-androidgradle) in wiki.
+
+
 * **Live template usages guide** : https://youtu.be/35D7FyjGRxM
+
                   
 ### Screenshots
 | Center in parent                                                                | 
