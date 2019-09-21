@@ -21,6 +21,9 @@ The main idea behind this repo is to share basic android development template wh
           
 **Step 5:** After restarting AndroidStudio you will get the all templates at **Live Templates** by navigating
                   **File** > **Settings** > **Editor** > **Live Templates**
+                  
+ * **[Video] Live template setup** : https://youtu.be/QDA4tWGsIIs
+
 
 ### :book: Example:
 
@@ -36,7 +39,7 @@ We have added templates in individual templates group like AndroidManifest, Andr
 | center_horizontal  |  Set horizontal constraint on view | app:layout_constraintStart_toStartOf="@+id/VIEW_ID" app:layout_constraintEnd_toEndOf="@+id/VIEW_ID"
 | center_horizontal_parent  | Set horizontal constraint on view with parent | app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
 
-For more templates checkout [WIKI](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#1-androidxmllayouttemplates)
+For more templates checkout [AndroidXmlLayoutTemplates](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#1-androidxmllayouttemplates) in wiki.
 
 **2. AndroidManifest**
 
@@ -44,8 +47,9 @@ For more templates checkout [WIKI](https://github.com/pranaypatel512/AndroidLive
 |-----------------	|---------------	|------------|
 | permission_storage | Add read/write permissioin for external storage  | < uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>                < uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
-For more templates checkout [WIKI](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#2-androidmanifest)
+For more templates checkout [AndroidManifest](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#2-androidmanifest) in wiki.
 
+* **Live template usages guide** : https://youtu.be/35D7FyjGRxM
                   
 ### Screenshots
 | Center in parent                                                                | 
