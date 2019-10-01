@@ -86,7 +86,7 @@ For more templates checkout [AndroidGradle](https://github.com/pranaypatel512/An
 **Step 2:** Export the setting with only "Live Templates" section.
          **File** -> **Exports Settings** -> Click on **Select None** to deselect other settings. -> Select **Live Templates(schemes)**
 
-![Exports Settings](https://monosnap.com/image/VeL1FhTPcmuWOURkzNx5w3iUGcwC4u)
+![Exports Settings](./images/export_settings.png)
          
 **Step 3:** Upload latest settings file with new branch and Send PR.
 
