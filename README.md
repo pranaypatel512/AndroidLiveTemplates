@@ -97,6 +97,10 @@ For more templates checkout [AndroidGradle](https://github.com/pranaypatel512/An
 * **Live template setup** : https://youtu.be/QDA4tWGsIIs
 * **Live template usages** : https://youtu.be/35D7FyjGRxM
 
+### Blog
+
+Checkout AndroidLiveTemplate blog post [HERE](https://proandroiddev.com/add-custom-live-templates-in-android-studio-11b59dd0284d) by [Jovche Mitrejchevski](https://github.com/mitrejcevski)
+
 ### Built With
 
 * [Android Studio](https://developer.android.com/studio/index.html) - The Official IDE for Android
