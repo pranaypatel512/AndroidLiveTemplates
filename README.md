@@ -1,48 +1,121 @@
-![banner](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/images/live_templates.png)
+![banner](./images/live_template_image_feature.png) 
+-------------------------------------------------------
 
-## AndroidLiveTemplates
+# AndroidLiveTemplates
 
  :rocket: A curated android templates to make android development more easy and fast:battery:!
  
- |      |      |
-#### :bulb: Goal 
+### :bulb: Goal 
 
 The main idea behind this repo is to share basic android development template which helps developers to write less code.
 
-#### How to use:
+### :hammer: How to use:
 
-          Step 1: First download latest AndroidLiveTemplates from [here](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
+**Step 1:** First download latest AndroidLiveTemplates from [Live_templates_android.zip](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
+
+**Step 2:** Open AndroidStudio and Choose menu **File** > and select **Import Settings...** from the menu.
+
+**Step 3:** Specify live template configuration path by selection **Live_templates_android.zip** file.
+
+**Step 4:** Now select the **Live templates** checkbox and click OK.
           
-          Step 2: Open AndroidStudio and Choose menu **File** > and select **Import Settings...** from the menu.
-          
-          Step 3: Specify live template configuration path by selection **Live_templates_android.zip** file.
-          
-          Step 4: Now select the **Live templates** checkbox and click OK.
-          
-          | https://imgur.com/a/b89EM2t |
-          
-          Step 5: After restarting AndroidStudio you will get the all templates at **Live Templates** by navigating
-                  File > Settings > Editor > Live Templates  
+**Step 5:** After restarting AndroidStudio you will get the all templates at **Live Templates** by navigating
+                  **File** > **Settings** > **Editor** > **Live Templates**
+                  
+ * **[Video] Live template setup** : https://youtu.be/QDA4tWGsIIs
+
+
+### :book: Example:
+
+We have added templates in individual templates group like AndroidManifest, AndroidXmlLayoutTemplates, AndroidGradle, AndroidXmlMenu etc.
+
+**1. AndroidXmlLayoutTemplates**
+
+| Template Name   	| Purpose       	| Properties |
+|-----------------	|---------------	|------------|
+| center_parent    | Set view in the center of parent in the ConstraintLayout |app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+| center_vertical  | Set vertical constraint on view | app:layout_constraintTop_toTopOf="@+id/VIEW_ID" app:layout_constraintBottom_toBottomOf="@+id/VIEW_ID"
+| center_vertical_parent  | Set vertical constraint on view with parent | app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+| center_horizontal  |  Set horizontal constraint on view | app:layout_constraintStart_toStartOf="@+id/VIEW_ID" app:layout_constraintEnd_toEndOf="@+id/VIEW_ID"
+| center_horizontal_parent  | Set horizontal constraint on view with parent | app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+
+For more templates checkout [AndroidXmlLayoutTemplates](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#1-androidxmllayouttemplates) in wiki.
+
+**2. AndroidManifest**
+
+| Template Name   	| Purpose       	| Properties |
+|-----------------	|---------------	|------------|
+| permission_storage | Add read/write permissioin for external storage  | < uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>                < uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+| permission_location | Add location permissioins in manifest  | < uses-permissions android:name="android.permission.ACCESS_COARSE_LOCATION"/> < uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+For more templates checkout [AndroidManifest](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#2-androidmanifest) in wiki.
+
+
+**3. AndroidGradle**
+
+| Template Name   	| Purpose       	| Properties |
+|-----------------	|---------------	|------------|
+| buildTypes | Default buildTypes setup in gradle with release and debug  | buildTypes { release { minifyEnabled false ...} debug { minifyEnabled false ...} }
+
+For more templates checkout [AndroidGradle](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki#3-androidgradle) in wiki.
+
+
+* **Live template usages guide** : https://youtu.be/35D7FyjGRxM
+
+                  
 ### Screenshots
-| Center in parent | Android menu setup|
-| ------------------ | ------------------ |
-| <img src="./images/example_center_parent.gif" height="500" alt="Screenshots"/>  | <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>  |
+| Center in parent                                                                | 
+| ------------------------------------------------------------------------------- | 
+| <img src="./images/example_center_parent.gif" height="500" alt="Screenshots"/>  |
+-----------------------------------------------------------------------------------
+| Android menu setup                                                              |
+| ------------------------------------------------------------------------------- |
+| <img src="./images/example_menu.gif" height="500" alt="Screenshots"/>           |
+-----------------------------------------------------------------------------------
+| Gradle build config setup                                                              |
+| ------------------------------------------------------------------------------- |
+| <img src="./images/build_type.gif" height="500" alt="Screenshots"/>             |
+-----------------------------------------------------------------------------------
 
-## Usage
-  
-  For more,See [Wiki](https://github.com/pranaypatel512/AndroidLiveTemplates/wiki) on how to add use live templates.  
-    
-#### Adding more templates!
+### :heavy_plus_sign: Adding more templates!
 
-we are Welcoming PR. Check out contribution guidelines [CONTRIBUTING.md](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/CONTRIBUTING.md) 
+**we are Welcoming PR!**
 
-#### Get in touch!
+**Step 1:** Add new template(s) in your android studio aftert importing latest [Live_templates_android.zip](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/Live_templates_android.zip?raw=true)
+
+**Step 2:** Export the setting with only "Live Templates" section.
+         **File** -> **Exports Settings** -> Click on **Select None** to deselect other settings. -> Select **Live Templates(schemes)**
+
+![Exports Settings](./images/export_settings.png)
+         
+**Step 3:** Upload latest settings file with new branch and Send PR.
+
+ Check out contribution guidelines [CONTRIBUTING.md](https://github.com/pranaypatel512/AndroidLiveTemplates/blob/master/CONTRIBUTING.md) 
+
+### :movie_camera: Videos guide
+
+* **Live template setup** : https://youtu.be/QDA4tWGsIIs
+* **Live template usages** : https://youtu.be/35D7FyjGRxM
+
+### Blog
+
+Checkout AndroidLiveTemplate blog post [HERE](https://proandroiddev.com/add-custom-live-templates-in-android-studio-11b59dd0284d) by [Jovche Mitrejchevski](https://github.com/mitrejcevski)
+
+### Built With
+
+* [Android Studio](https://developer.android.com/studio/index.html) - The Official IDE for Android
+
+### :envelope: Get in touch!
 
 * [@Twitter](https://twitter.com/pranatpatel_)
 
 * https://about.me/pranaypatel
 
-#### License
+### Find this project useful ? ❤️
+
+Support it by clicking the ⭐️ button on the upper right of this page. ✌️
+
+### License
 
 ```
    Copyright © 2019 Pranay Patel
