@@ -109,7 +109,7 @@ Checkout AndroidLiveTemplate blog post [HERE](https://proandroiddev.com/add-cust
 
 * [@Twitter](https://twitter.com/pranatpatel_)
 
-* https://about.me/pranaypatel
+* https://pranaypatel512.github.io/
 
 ### Find this project useful ? ❤️
 
